@@ -1,3 +1,6 @@
+library(ALDEx2)
+library(zCompositions)
+
 # rdirichlet function
 rdirichlet <- function (n, alpha)
 {

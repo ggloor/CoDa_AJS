@@ -151,7 +151,7 @@ The question we wish to address with this dataset is: can we identify from the g
 
 %%%%$ CZM biplot Figure
 \begin{figure}[!ht]
-\centerline{\includegraphics[width=5in]{/Users/ggloor/Documents/0_CoDa/0_2015/biplot_CZM.pdf}}
+\centerline{\includegraphics[width=5in]{figs/biplot_CZM.pdf}}
 \vspace{3mm} \caption{Biplot showing the relationship between samples and variables in the selex dataset. Zero values were adjusted using the count zero multiplicative approach using the zCompositions \proglang{R} package, and the biplot was generated using the compositions \proglang{R} package. Samples ending with `NS' are the control non-selected growth samples and samples ending in `S'are from the selected growth samples.  The vast majority  of the variables cluster around the centre of the dataset. The red arrows to the left show that the 7 non-selected replicates are very similar, and the selected replicates on the right exhibit some variability. The differences between samples are driven by variation in a small number of variables.  In this dataset, component 1 explains 52.4\% of the variability and component 2 explains 10.4\%.}
 \label{fig:biplot}
 \end{figure}
@@ -203,7 +203,7 @@ As implemented, the ALDEx2 package uses the uniform zero replacement value of 0.
 We applied the same seven methods to adjust the value of zero in the selex dataset, and an overview of the results are shown in the Dir column of Table \ref{tab:selex}. We again used Wilcoxon tests on the two groups and corrected the resulting P values using the Benjamini-Hochberg approach. Significance was assumed if the mean adjusted P value across all 128 instances was less than 0.05.  In this analysis the substituted values of zero in the adjusted datasets serve as prior estimates of the range of values that zero could assume in each of the Dirichlet instances.  The square root Bayesian multiplicative approach was incompatible with generating Dirichlet instances because many of the prior values that replaced zero generated Dirichlet posterior estimates that were not distinguishable from zero. Modelling uniform priors indicated that this occurred when the prior for zero was less than approximately 0.05. The remaining six approaches were compatible with the approach, and resulted in substantially smaller numbers of variants being identified as significantly different between the selected and non-selected groups. In this analysis, the Geometric Bayesian multiplicative, uniform replacement and uniform prior approaches were approximately similar, the count zero multiplicative  approaches was nearly as selective, and the Bayes-Laplace approach was least selective. 
 
 \begin{figure}[!ht]
-\centerline{\includegraphics[width=4.6in]{/Users/ggloor/Documents/0_CoDa/0_2015/all_tested.pdf}}
+\centerline{\includegraphics[width=4.6in]{figs/all_tested.pdf}}
 \vspace{3mm} \caption{Variance-variance plot showing the median maximum centred log-ratio scaled difference within each group plotted vs. median between group difference for each variant. Dotted lines represent the approximate location of effect sizes, which is calculated as the median between to within group difference. Variants are coloured if their activity was validated \emph{in vitro}, have a star if they failed to grow reliably in individual culture \emph{in vitro}. Variants that exhibit a significant increase in abundance using the Wilcoxon test with a mean Benjamini-Hochberg adjusted P value of $> 0.05$ are shown as large grey dots. The analysis was done with a uniform prior of 0.5 applied to the dataset. Also shown are the six variants that were outliers on component 2 of the clr biplot in Figure \ref{fig:biplot}}
 \label{fig:vv}
 \end{figure}
@@ -219,7 +219,7 @@ There is remarkable concordance between the data viewed in this way, and the sam
 % GBM  0.06127945 4.89027346
 % SQ 0.00685417 3.10229876
 \begin{figure}[1ht]
-\centerline{\includegraphics[width=5.5in]{/Users/ggloor/Documents/0_CoDa/0_2015/zero_replace.pdf}}
+\centerline{\includegraphics[width=5.5in]{figs/zero_replace.pdf}}
 \vspace{3mm} \caption{Variance-variance  plots showing how the prior values for zero determined by the count zero multiplicative (CZM), geometric Bayesian multiplicative (GBM) and Bayes-Laplace (BL) methods alter the variation of the data. Red dots represent those that are called differential, black dots are not differential and the lines represent effect sizes of 1 and -1. The cutoff used was a Benjamini-Hochberg adjusted P value of 0.05 from an unpaired Wilcoxon test.  }
 \label{fig:replace}
 \end{figure}
