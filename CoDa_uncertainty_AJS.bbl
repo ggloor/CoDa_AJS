@@ -1,0 +1,184 @@
+\begin{thebibliography}{21}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Aitchison(1986)}]{Aitchison:1986}
+Aitchison J (1986).
+\newblock \emph{The Statistical Analysis of Compositional Data}.
+\newblock Chapman \& Hall.
+
+\bibitem[{Benjamini and Hochberg(1995)}]{benjamini:1995}
+Benjamini Y, Hochberg Y (1995).
+\newblock \enquote{Controlling the false discovery rate: a practical and
+  powerful approach to multiple testing.}
+\newblock \emph{Journal of the Royal Statistical Society. Series B
+  (Methodological)}, pp. 289--300.
+
+\bibitem[{Bottomly \emph{et~al.}(2011)Bottomly, Walter, Hunter, Darakjian,
+  Kawane, Buck, Searles, Mooney, McWeeney, and Hitzemann}]{Bottomly:2011}
+Bottomly D, Walter NAR, Hunter JE, Darakjian P, Kawane S, Buck KJ, Searles RP,
+  Mooney M, McWeeney SK, Hitzemann R (2011).
+\newblock \enquote{Evaluating gene expression in {C57BL/6J} and {DBA/2J} mouse
+  striatum using {RNA-seq} and microarrays.}
+\newblock \emph{PLoS One}, \textbf{6}(3), e17820.
+\newblock \doi{10.1371/journal.pone.0017820}.
+
+\bibitem[{Ding and Schloss(2014)}]{Ding:2014aa}
+Ding T, Schloss PD (2014).
+\newblock \enquote{Dynamics and associations of microbial community types
+  across the human body.}
+\newblock \emph{Nature}, \textbf{509}(7500), 357--60.
+\newblock \doi{10.1038/nature13178}.
+
+\bibitem[{Fernandes \emph{et~al.}(2013)Fernandes, Macklaim, Linn, Reid, and
+  Gloor}]{fernandes:2013}
+Fernandes AD, Macklaim JM, Linn T, Reid G, Gloor GB (2013).
+\newblock \enquote{{ANOVA}-Like Differential Expression ({ALDEx}) Analysis for
+  Mixed Population {RNA}-Seq.}
+\newblock \emph{PLoS ONE}, \textbf{8}(7), e67019.
+
+\bibitem[{Fernandes \emph{et~al.}(2014)Fernandes, Reid, Macklaim, McMurrough,
+  Edgell, and Gloor}]{fernandes:2014}
+Fernandes AD, Reid JN, Macklaim JM, McMurrough TA, Edgell DR, Gloor GB (2014).
+\newblock \enquote{Unifying the analysis of high-throughput sequencing
+  datasets: characterizing {RNA}-seq, 16S r{RNA} gene sequencing and selective
+  growth experiments by compositional data analysis.}
+\newblock \emph{Microbiome}, \textbf{2}, 15.
+\newblock \doi{10.1186/2049-2618-2-15}.
+
+\bibitem[{Gierli{\'n}ski \emph{et~al.}(2015)Gierli{\'n}ski, Cole, Schofield,
+  Schurch, Sherstnev, Singh, Wrobel, Gharbi, Simpson, Owen-Hughes, Blaxter, and
+  Barton}]{Gierlinski:2015aa}
+Gierli{\'n}ski M, Cole C, Schofield P, Schurch NJ, Sherstnev A, Singh V, Wrobel
+  N, Gharbi K, Simpson G, Owen-Hughes T, Blaxter M, Barton GJ (2015).
+\newblock \enquote{Statistical models for RNA-seq data derived from a
+  two-condition 48-replicate experiment.}
+\newblock \emph{Bioinformatics}.
+\newblock \doi{10.1093/bioinformatics/btv425}.
+
+\bibitem[{Holmes \emph{et~al.}(2012)Holmes, Harris, and Quince}]{Holmes:2012}
+Holmes I, Harris K, Quince C (2012).
+\newblock \enquote{Dirichlet multinomial mixtures: generative models for
+  microbial metagenomics.}
+\newblock \emph{PLoS One}, \textbf{7}(2), e30126.
+\newblock \doi{10.1371/journal.pone.0030126}.
+
+\bibitem[{Hsiao \emph{et~al.}(2013)Hsiao, McBride, Hsien, Sharon, Hyde, McCue,
+  Codelli, Chow, Reisman, Petrosino, Patterson, and Mazmanian}]{Hsiao:2013}
+Hsiao EY, McBride SW, Hsien S, Sharon G, Hyde ER, McCue T, Codelli JA, Chow J,
+  Reisman SE, Petrosino JF, Patterson PH, Mazmanian SK (2013).
+\newblock \enquote{Microbiota modulate behavioral and physiological
+  abnormalities associated with neurodevelopmental disorders.}
+\newblock \emph{Cell}, \textbf{155}(7), 1451--63.
+\newblock \doi{10.1016/j.cell.2013.11.024}.
+
+\bibitem[{La~Rosa \emph{et~al.}(2012)La~Rosa, Brooks, Deych, Boone, Edwards,
+  Wang, Sodergren, Weinstock, and Shannon}]{La-Rosa:2012}
+La~Rosa PS, Brooks JP, Deych E, Boone EL, Edwards DJ, Wang Q, Sodergren E,
+  Weinstock G, Shannon WD (2012).
+\newblock \enquote{Hypothesis testing and power calculations for
+  taxonomic-based human microbiome data.}
+\newblock \emph{PLoS One}, \textbf{7}(12), e52078.
+\newblock \doi{10.1371/journal.pone.0052078}.
+
+\bibitem[{Lovell \emph{et~al.}(2011)Lovell, M{\"u}ller, Taylor, Zwart,
+  Helliwell, Pawlowsky-Glahn, and Buccianti}]{lovell:2011}
+Lovell D, M{\"u}ller W, Taylor J, Zwart A, Helliwell C, Pawlowsky-Glahn V,
+  Buccianti A (2011).
+\newblock \enquote{Proportions, percentages, ppm: do the molecular biosciences
+  treat compositional data right?}
+\newblock \emph{Compositional Data Analysis: Theory and Applications}, pp.
+  193--207.
+
+\bibitem[{Lovell \emph{et~al.}(2014)Lovell, Pawlowsky-Glahn, Egozcue,
+  Marguerat, and B{\"a}hler}]{lovell:2014}
+Lovell D, Pawlowsky-Glahn V, Egozcue JJ, Marguerat S, B{\"a}hler J (2014).
+\newblock \enquote{Proportionality: a valid alternative to correlation for
+  relative data.}
+\newblock \emph{bioRxiv}, p. 008417.
+
+\bibitem[{Macklaim \emph{et~al.}(2013)Macklaim, Fernandes, Di~Bella, Hammond,
+  Reid, and Gloor}]{macklaim:2013}
+Macklaim MJ, Fernandes DA, Di~Bella MJ, Hammond JA, Reid G, Gloor GB (2013).
+\newblock \enquote{Comparative meta-{RNA}-seq of the vaginal microbiota and
+  differential expression by \textit{{L}actobacillus iners} in health and
+  dysbiosis.}
+\newblock \emph{Microbiome}, \textbf{1}, 15.
+\newblock \doi{doi: 10.1186/2049-2618-1-12}.
+
+\bibitem[{Marioni \emph{et~al.}(2008)Marioni, Mason, Mane, Stephens, and
+  Gilad}]{Marioni:2008}
+Marioni JC, Mason CE, Mane SM, Stephens M, Gilad Y (2008).
+\newblock \enquote{{RNA-seq}: an assessment of technical reproducibility and
+  comparison with gene expression arrays.}
+\newblock \emph{Genome Res}, \textbf{18}(9), 1509--17.
+\newblock \doi{10.1101/gr.079558.108}.
+
+\bibitem[{Mart{\'\i}n-Fern{\'a}ndez
+  \emph{et~al.}(2014)Mart{\'\i}n-Fern{\'a}ndez, Hron, Templ, Filzmoser, and
+  Palarea-Albaladejo}]{fernandez:2014}
+Mart{\'\i}n-Fern{\'a}ndez JA, Hron K, Templ M, Filzmoser P, Palarea-Albaladejo
+  J (2014).
+\newblock \enquote{Bayesian-multiplicative treatment of count zeros in
+  compositional data sets.}
+\newblock \emph{Statistical Modelling}, \textbf{doi:10.1177/1471082X14535524},
+  1:25.
+
+\bibitem[{McMurrough \emph{et~al.}(2014)McMurrough, Dickson, Thibert, Gloor,
+  and Edgell}]{mcmurrough:2014}
+McMurrough TA, Dickson RJ, Thibert SMF, Gloor GB, Edgell DR (2014).
+\newblock \enquote{Control of catalytic efficiency by a coevolving network of
+  catalytic and noncatalytic residues.}
+\newblock \emph{Proc Natl Acad Sci U S A}, \textbf{111}(23), E2376--83.
+\newblock \doi{10.1073/pnas.1322352111}.
+
+\bibitem[{Munsky \emph{et~al.}(2012)Munsky, Neuert, and van
+  Oudenaarden}]{Munsky:2012aa}
+Munsky B, Neuert G, van Oudenaarden A (2012).
+\newblock \enquote{Using gene expression noise to understand gene regulation.}
+\newblock \emph{Science}, \textbf{336}(6078), 183--7.
+\newblock \doi{10.1126/science.1216379}.
+
+\bibitem[{Palarea-Albaladejo and
+  Mart{\'\i}n-Fern{\'a}ndez(2015)}]{PalareaAlbaladejo201585}
+Palarea-Albaladejo J, Mart{\'\i}n-Fern{\'a}ndez JA (2015).
+\newblock \enquote{zCompositions --- R package for multivariate imputation of
+  left-censored data under a compositional approach.}
+\newblock \emph{Chemometrics and Intelligent Laboratory Systems},
+  \textbf{143}(0), 85 -- 96.
+\newblock ISSN 0169-7439.
+\newblock \doi{http://dx.doi.org/10.1016/j.chemolab.2015.02.019}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0169743915000490}.
+
+\bibitem[{Pawlowsky-Glahn \emph{et~al.}(2015)Pawlowsky-Glahn, Egozcue, and
+  Tolosana-Delgado}]{pawlowsky2015modeling}
+Pawlowsky-Glahn V, Egozcue JJ, Tolosana-Delgado R (2015).
+\newblock \emph{Modeling and Analysis of Compositional Data}.
+\newblock John Wiley \& Sons.
+
+\bibitem[{Smith and Maxwell(2006)}]{Smith:2006aa}
+Smith AB, Maxwell A (2006).
+\newblock \enquote{A strand-passage conformation of DNA gyrase is required to
+  allow the bacterial toxin, CcdB, to access its binding site.}
+\newblock \emph{Nucleic Acids Res}, \textbf{34}(17), 4667--76.
+\newblock \doi{10.1093/nar/gkl636}.
+
+\bibitem[{van~den Boogaart and Tolosana-Delgado(2008)}]{vandenBoogaart2008320}
+van~den Boogaart KG, Tolosana-Delgado R (2008).
+\newblock \enquote{``compositions'': A unified {R} package to analyze
+  compositional data.}
+\newblock \emph{Computers \& Geosciences}, \textbf{34}(4), 320 -- 338.
+\newblock ISSN 0098-3004.
+\newblock \doi{http://dx.doi.org/10.1016/j.cageo.2006.11.017}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S009830040700101X}.
+
+\end{thebibliography}
